@@ -9,6 +9,7 @@
     padding: 0 1rem;
     position: fixed;
     background-color: var(--body-color);
+    z-index: 1;
 }
 
 
@@ -42,11 +43,13 @@
 .nav__link{
     padding: 0.5rem 1rem;
     margin: 0.5rem;
+    font-size: var(--h3-font-size);
 }
 
 .nav__link:hover{
-    background-color: var(--body-color);
-
+    border-radius: 5px;
+    border: 2px solid var(--container-color);
+    background-color: var(--container-color);
 }
 
 .nav__buttons{

@@ -20,13 +20,13 @@
                     <a  href="./index.html">Inicio</a>
                 </li>
                 <li class="nav__link" >
-                    <a href="./index.html">Catalogo</a>
+                    <a href="./pages/shop.html">Catalogo</a>
                 </li>
                 <li class="nav__link">
-                    <a href="./index.html">Sobre Nosotros</a>
+                    <a href="./pages/about_us.html">Sobre Nosotros</a>
                 </li>
                 <li class="nav__link">
-                    <a  href="./index.html">Contáctenos</a>
+                    <a  href="./pages/contact_us.html">Contáctenos</a>
                 </li>
             </ul>
             <ul class="nav__buttons">
@@ -44,8 +44,8 @@
                         </span>
                     </button>
                 </li>
-                <li>
-                    <button name="menu" type="button" class="mat-fab">
+                <li class="mobile">
+                    <button id="menu-mobile" type="button" class="mat-fab">
                         <span class="material-icons">
                             menu
                         </span>
@@ -58,72 +58,78 @@
 
     <!-- MAIN -->
     <main class="main">
-        <section class="section">
-            <img src="./img/banners/home-1.jpg" alt="banner">
+        <section>
+            <div class="home__banner">
+                <img class="mobile" src="./img/banners/home-mobile-1.jpg" alt="banner">
+                <img class="desktop" src="./img/banners/home-desktop-1.jpg" alt="banner">
+            </div>
         </section>
         
         <section class="section">
-            <h1 class="section__title">
-                Productos Populares
-            </h1>
-            <div class="d-grid col-lg-4 gap-1">
-                <div class="product">
-                    <div class="product__image">
-                        <div class="product__img">
-                            <a href="./pages/product.html" class="product__img">
-                                <img src="./img/products/product-1-01.webp" alt="product-1">
-                            </a>
-                        </div>
-                        <div class="product__tag">
-                            <span class="new">
-                                NUEVO
-                            </span>
-                        </div>
-                    </div>
-                    <div class="product__content">
-                        <div class="product__category">
-                            <a href="">
-                                Celulares
-                            </a>
-                        </div>
-                        <h2>
-                            <a class="product__title" href="">
-                                Celular Xiaomi Redmi 12 256gb Negro
-                            </a>
-                        </h2>
-                        <div class="product__rate">
-                            <div class="product__rate-starts">
-                                <span class="material-icons">
-                                    star_rate
-                                </span>
-                                <span class="material-icons">
-                                    star_rate
-                                </span>
-                                <span class="material-icons">
-                                    star_rate
-                                </span>
-                                <span class="material-icons">
-                                    star_rate
-                                </span>
-                                <span class="material-icons">
-                                    star_rate
+            <div class="container">
+                <h1 class="section__title">
+                    Productos Populares
+                </h1>
+                <div class="d-grid col-lg-4 gap-1">
+                    <div class="product">
+                        <div class="product__image">
+                            <div class="product__img">
+                                <a href="./pages/product.html" class="product__img">
+                                    <img src="./img/products/product-1-01.webp" alt="product-1">
+                                </a>
+                            </div>
+                            <div class="product__tag">
+                                <span class="new">
+                                    NUEVO
                                 </span>
                             </div>
-                            <span class="product__rate-num">
-                                (5)
-                            </span>
                         </div>
-                        <div class="product__price">
-                            <h3>$800.000</h3>
+                        <div class="product__content">
+                            <div class="product__category">
+                                <a href="">
+                                    Celulares
+                                </a>
+                            </div>
+                            <h2>
+                                <a class="product__title" href="">
+                                    Celular Xiaomi Redmi 12 256gb Negro
+                                </a>
+                            </h2>
+                            <div class="product__rate">
+                                <div class="product__rate-starts">
+                                    <span class="material-icons">
+                                        star_rate
+                                    </span>
+                                    <span class="material-icons">
+                                        star_rate
+                                    </span>
+                                    <span class="material-icons">
+                                        star_rate
+                                    </span>
+                                    <span class="material-icons">
+                                        star_rate
+                                    </span>
+                                    <span class="material-icons">
+                                        star_rate
+                                    </span>
+                                </div>
+                                <span class="product__rate-num">
+                                    (5)
+                                </span>
+                            </div>
+                            <div class="product__price">
+                                <h3>$800.000</h3>
+                                <h4 class="old-price">$900.000</h4>
+                            </div>
+                            <button class="product__button ">
+                                <span class="material-icons">
+                                    shopping_cart
+                                </span>
+                                AGREGAR
+                            </button>
                         </div>
-                        <button class="product__button">
-                            <span class="material-icons">
-                                shopping_cart
-                            </span>
-                        </button>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
@@ -131,7 +137,103 @@
 
     <!-- FOOTER -->
     <footer class="footer">
+        <div class="container">
+            <div class="d-grid footer__content gap-1">
 
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <img  src="./img/material/tecnodoctorpuntocell_logo.png" alt="TECNODOCTOR-LOGO">
+                        <p>
+                            Los Mejores Precios en un solo Lugar
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="footer__link">
+                            <a href="">
+                                <span class="material-icons">
+                                    mail
+                                </span>
+                                tecnodoctorpuntocell@gmail.com
+                            </a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="">
+                                <span class="material-icons">
+                                    pin_drop
+                                </span>
+                                Carrera 9 # 5-10 San Gil-Santander
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h3 class="footer__subtitle my-1">
+                        Enlaces Rápidos
+                    </h3>
+                    <ul>
+                        <li class="footer__link">
+                            <a href="./index.html">
+                                Inicio
+                            </a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="./pages/shop.html">
+                                Catalogo
+                            </a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="./pages/about_us.html">
+                                Sobre Nosotros
+                            </a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="./pages/contact_us.html">
+                                Contáctenos
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h3 class="footer__subtitle my-1">
+                        Categorías
+                    </h3>
+                    <ul>
+                        <li class="footer__link">
+                            <a href="">Celulares</a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="">Smart Wash</a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="">Audífonos</a> 
+                        </li>
+                        <li class="footer__link">
+                            <a href="">Cargadores</a> 
+                        </li class="footer__link" >
+                        <li class="footer__link">
+                            <a href="">Parlantes</a> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <div class="d-flex text-align-center">
+                        <a href=""  class="footer__social">
+                            <img src="./img/material/facebook.png" alt="facebook link">
+                        </a>
+                        <a href=""  class="footer__social">
+                            <img src="./img/material/instagram.png" alt="instagram link">
+                        </a>
+                        <a href=""  class="footer__social">
+                            <img src="./img/material/youtube.png" alt="YouTube link">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </footer>
     <!-- END FOOTER -->
 </body>

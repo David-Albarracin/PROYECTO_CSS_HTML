@@ -1,5 +1,28 @@
 .section__title{
-    text-align: center;
-    margin: 1rem 0;
-    
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+}
+
+.section__title::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #BCE3C9;
+}
+
+
+.section{
+    padding: 1rem 0;
+}
+
+.home__banner img{
+    width: 100%;
+}
+
+.desktop{
+    display: none;
 }

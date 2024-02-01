@@ -1,0 +1,36 @@
+.footer{
+    padding: 2rem 0;
+    box-shadow: var(--background-show) 2px 0px 0px;
+    background-color: var(--container-color);
+}
+
+.footer__section{
+    padding: 1rem;
+}
+
+.footer__logo{
+    padding-bottom: 1rem;
+}
+
+
+.footer__logo img{
+    max-width: 100px;
+}
+
+
+.footer__link{
+    margin: 1rem 0;
+}
+
+.footer__link a{
+    display: flex;
+    align-items: center;
+}
+
+.footer__link span{
+    margin-right: 5px;
+}
+
+.footer__social{
+    margin: 1rem;
+}

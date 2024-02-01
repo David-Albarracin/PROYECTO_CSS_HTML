@@ -7,6 +7,15 @@
 /*========== Medium (md) ==========*/
 @media (min-width: 768px) {
 
+    .col-md-6{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__content{
+        grid-template-columns: 40% 40%;
+        gap: 10%;
+    }
+
 }
 
 /*========== Large (lg) ==========*/
@@ -14,6 +23,32 @@
 
     .col-lg-4{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .col-lg-6{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+
+    .nav__menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-direction: row;
+        top: 0;
+        background: none;
+    }
+
+    .footer__content{
+        grid-template-columns: 30% 25% 25% 20%;
+        gap: 0;
     }
 
 }
@@ -28,6 +63,13 @@
     .nav{
         max-width: 1140px;
     }
+
+
+    .col-xl-3{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    
 }
 
 /*========== Extra extra large (xxl) ==========*/

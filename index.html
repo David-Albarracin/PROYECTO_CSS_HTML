@@ -5,18 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>TECNODOCTOR PUNTO CELL</title>
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
-        
+        <nav class="nav">
+            <a class="nav__logo" href="./index.html">
+                <img src="./img/material/tecnodoctorpuntocell_logo-2.png" alt="logo">
+            </a>
+            <ul class="nav__menu">
+                <li class="nav__link">
+                    <a  href="./index.html">Inicio</a>
+                </li>
+                <li class="nav__link" >
+                    <a href="./index.html">Catalogo</a>
+                </li>
+                <li class="nav__link">
+                    <a href="./index.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav__link">
+                    <a  href="./index.html">Contáctenos</a>
+                </li>
+            </ul>
+            <ul class="nav__buttons">
+                <li>
+                    <button name="login" type="button" class="mat-fab">
+                        <span class="material-icons">
+                            person
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button name="shopping_cart" type="button"  class="mat-fab">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button name="menu" type="button" class="mat-fab">
+                        <span class="material-icons">
+                            menu
+                        </span>
+                    </button>
+                </li>
+            </ul>
+        </nav> 
     </header>
     <!-- END HEADER -->
 
     <!-- MAIN -->
     <main class="main">
+        <section class="section">
+            <img src="./img/banners/home-1.jpg" alt="banner">
+        </section>
         
+        <section class="section">
+            <h1 class="section__title">
+                Productos Populares
+            </h1>
+            <div class="d-grid col-lg-4 gap-1">
+                <div class="product">
+                    <div class="product__image">
+                        <div class="product__img">
+                            <a href="./pages/product.html" class="product__img">
+                                <img src="./img/products/product-1-01.webp" alt="product-1">
+                            </a>
+                        </div>
+                        <div class="product__tag">
+                            <span class="new">
+                                NUEVO
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <a href="">
+                                Celulares
+                            </a>
+                        </div>
+                        <h2>
+                            <a class="product__title" href="">
+                                Celular Xiaomi Redmi 12 256gb Negro
+                            </a>
+                        </h2>
+                        <div class="product__rate">
+                            <div class="product__rate-starts">
+                                <span class="material-icons">
+                                    star_rate
+                                </span>
+                                <span class="material-icons">
+                                    star_rate
+                                </span>
+                                <span class="material-icons">
+                                    star_rate
+                                </span>
+                                <span class="material-icons">
+                                    star_rate
+                                </span>
+                                <span class="material-icons">
+                                    star_rate
+                                </span>
+                            </div>
+                            <span class="product__rate-num">
+                                (5)
+                            </span>
+                        </div>
+                        <div class="product__price">
+                            <h3>$800.000</h3>
+                        </div>
+                        <button class="product__button">
+                            <span class="material-icons">
+                                shopping_cart
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
     <!-- END MAIN -->
 

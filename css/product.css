@@ -1,0 +1,42 @@
+.product{
+    
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1rem;
+    max-width: 280px;
+}
+
+.product__image{
+    max-height: 320px;
+    padding: 30px 25px 0 25px;
+}
+
+.product__image a{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.product__image a img{
+    max-width: 200px;
+    height: 100%;
+}
+
+.product__tag {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.new {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 15px 0 20px 0;
+    color: #fff;
+    padding: 9px 20px 10px 20px;
+    background-color: #f74b81;
+}

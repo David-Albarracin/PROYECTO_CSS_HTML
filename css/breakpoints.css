@@ -12,6 +12,10 @@
 /*========== Large (lg) ==========*/
 @media (min-width: 992px) {
 
+    .col-lg-4{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 
@@ -20,11 +24,19 @@
     .container {
         max-width: 1140px;
     }
+
+    .nav{
+        max-width: 1140px;
+    }
 }
 
 /*========== Extra extra large (xxl) ==========*/
 @media (min-width: 1400px) {
     .container {
+        max-width: 1320px;
+    }
+
+    .nav{
         max-width: 1320px;
     }
 }

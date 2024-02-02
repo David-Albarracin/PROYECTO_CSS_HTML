@@ -15,6 +15,7 @@
         grid-template-columns: 40% 40%;
         gap: 10%;
     }
+    
 
 }
 
@@ -27,6 +28,10 @@
 
     .col-lg-6{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop{
+        grid-template-columns: 25% 75%;
     }
 
     .mobile{

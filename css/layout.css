@@ -14,6 +14,14 @@
     text-align: center;
 }
 
+.order-1{
+    order: 1;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
 
 .mx-1{
     margin-left: 0.5rem;
@@ -23,6 +31,10 @@
 .my-1{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.me-1{
+    margin-right: 0.5rem;
 }
 
 .container{

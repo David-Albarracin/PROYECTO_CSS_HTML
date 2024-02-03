@@ -62,3 +62,7 @@
     margin-right: 0.5rem;
     background: none;
 }
+
+.align-items-center{
+    align-items: center;
+}

@@ -31,3 +31,66 @@
 .color-first{
     color: var(--first-color);
 }
+
+.nav-active{
+    border-radius: 5px;
+    border: 2px solid var(--container-color);
+    background-color: var(--container-color);
+}
+
+/*========== Inputs ==========*/
+
+
+.input-container {
+    padding: 1rem;
+    position: relative;
+    /* width: auto; */
+}
+
+.input-container input, textarea {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 350px;
+    padding: 1rem;
+    border: 2px solid var(--first-color );
+}
+
+.input-container label {
+    position: absolute;
+    background: white;
+    padding: 0 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    top: 0;
+    border-radius: 20px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--small-font-size);
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: var(--body-color);
+    border: 1px solid transparent;
+    background-color: var(--button-color);
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    letter-spacing: 0.5px;
+    margin: 1rem 0;
+}
+
+.form-buttons{
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.text-spaces{
+    white-space: pre-line;
+    text-align: initial;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: .5rem;
+}

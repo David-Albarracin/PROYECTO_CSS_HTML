@@ -75,13 +75,42 @@ Considerando lo mencionado anteriormente, avanzamos al siguiente paso donde alim
     margin-left: auto;     /* Margen izquierdo automático para centrar el contenedor horizontalmente */
 }
 
-
-
-
-
 ```
 
 Después de establecer la estructura de carpetas y los estilos base, nuestro próximo paso consiste en avanzar con el desarrollo de 'home.html'. Esta página servirá como la primera impresión para el usuario, presentando inicialmente el encabezado (header) con el logo y enlaces de navegación, que incluyen opciones como inicio, catálogo, contáctanos y sobre nosotros. A continuación, se presenta un banner publicitario, seguido por una sección de tres productos destacados. Finalmente, el (footer) incluirá información de contacto, enlaces rápidos y un buscador. Es importante destacar que tanto el (header) como el (footer) se mantendrán consistentes a lo largo de las demás páginas de nuestro proyecto, proporcionando una experiencia cohesiva y fácil de navegar
 
 
 
+![header](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/header.png)
+
+Esta es la hoja de estilo del header que contiene diferentes clases de estilo.    La primera es .header, que es un contenedor flex con posición fijada que nos ayuda para cuando el cursos baje el header se mantenga en pantalla y un nivel 3D 1 para que este por encima de los demas objetos y se le agrego un sombreado sutil en la parte inferior.
+
+Luego tenemos la clase .nav la cual se le aplica a la etiqueta nav que contiene los enlaces de navegación, como el logo y el menú desplegable.    Tiene un ancho y alto del 100%, y su contenido está distribuido con espacio entre ellos y alineados al centro.
+
+La clase .nav__logo se utiliza para especificar el estilo del logo.    Establece un ancho de 160px y evita que la imagen supere este límite.
+
+La clase .nav__menu se encarga del estilo del menú desplegable.    Inicialmente, está oculta (display: none) y se posiciona fija en la parte superior del contenedor.    Tiene un fondo de color diferente y un nivel 3D superior para superponerse al header.
+
+.nav__link establece el estilo de los enlaces de navegación.    Se aplica un relleno, margen y tamaño de fuente específicos. Luego a esto se le aplica una clase de estado de tipo hover que le da un borde y un color de fondo
+
+Luego la clase .nav__buttons, .nav input y close hacen parte del menu mobile las cuales se les aplica estilos en una media query entonces esta la clase .nav input:checked que hace que cuando el input este en el estado check este active la clase nav_menu con el display block la siguiente lo que hace es que cambie el label por un icono de x y esconda el icono de menu luego lo que hacemos es que el input checado cambie el estado del menu para poderlo ver
+
+![footer](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/footer.png)
+
+Ahora la hoja de estilo footer que nos ayuda con los estilos de pie de pagina empezando con la clase `.footer` define los estilos aplicados al pie de página de la página web. Este componente proporciona espaciado, sombra y color de fondo.
+
+![product](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/product.png)
+
+Esta hoja de estilo product.css es la que contiene todos las clases que se le aplican al producto en la vista de su card y la vista de su visualizacion completa en su propia product.html, 
+
+![category](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/category.png)
+
+Esta es la hoja de estilos que se le aplica a las categorias para que parescan botones y que tengan un border sutil y que entre categorias se separe un poco entre ellas 
+
+![about](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/about.png)
+
+Esta hoja de estilos nos ayuda a darle estilos a about.html y contact.html la clase que mas resalta es la de swiper esta nos ayuda a hacer un pequeño estilo tipo carrusel para darle una forma mas profecional 
+
+![style](https://raw.githubusercontent.com/David-Albarracin/README_MATERIALS/main/PROYECTO-HTML-CSS-JS/style.png)
+
+Esta es la hoja de estilos principal que nos ayuda a importar todos las otras hojas de estilos como es la principal es la que se importa en todos los html y nos ayuda a tener una maquetado mas modular 
